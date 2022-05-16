@@ -27,13 +27,13 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 200, 27];
 //  };
 
 // exercício 5
-// let numberBigger = 0;
-// for(let i = 0; i < numbers.length; i += 1){
-//     if(numbers[i] > numberBigger){
-//         numberBigger = numbers[i]
-//     };
-// };
-// console.log(numberBigger)
+let numberBigger = 0;
+for(let i = 0; i < numbers.length; i += 1){
+    if(numbers[i] > numberBigger){
+        numberBigger = numbers[i]
+    };
+};
+console.log(numberBigger)
 
 // exercício 6
 // let oddNumbers = 0;
@@ -47,10 +47,10 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 200, 27];
 // console.log(oddNumbers)
 
 // exercício 7
-let smallestNumber = null;
-for(let i = 0; i < numbers.length; i += 1){
-    if(numbers[i] < smallestNumber){
-        smallestNumber = numbers[i];
-    };
-};
-console.log(smallestNumber)
+// let smallestNumber = null;
+// for(let i = 0; i < numbers.length; i += 1){
+//     if(numbers[i] < smallestNumber){
+//         smallestNumber = numbers[i];
+//     };
+// };
+// console.log(smallestNumber)
