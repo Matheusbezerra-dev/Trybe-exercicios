@@ -53,4 +53,17 @@ console.log(numberBigger)
 //         smallestNumber = numbers[i];
 //     };
 // };
-// console.log(smallestNumber)
+// console.log(smallestNumber
+
+
+let a = numberMax;
+  let numberBigger = 0;
+  let sumMax = 0;
+  for (let i = 0; i < a.length; i += 1) {
+    if (a[i] >= numberBigger) {
+      numberBigger = a[i]
+      if (numberBigger === a[i]) {
+        sumMax += 1
+      };
+    };
+  }; console.log(sumMax)
