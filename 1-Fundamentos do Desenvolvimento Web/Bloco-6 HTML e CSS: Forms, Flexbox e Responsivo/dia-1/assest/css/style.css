@@ -74,3 +74,35 @@ button {
   margin-left: 20px;
   width: 50px;
 }
+
+footer {
+  display: flex; 
+  background-color: rgb(40, 8, 167);
+  color: white;
+  margin-top: 90px;
+  flex-direction: column;
+  height: auto;
+}
+
+.footer_copy {
+  border-top: 1px solid white;;
+  line-height: 40px;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.footer_copy p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_copy a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_copy a:hover {
+  text-decoration: underline;
+}
