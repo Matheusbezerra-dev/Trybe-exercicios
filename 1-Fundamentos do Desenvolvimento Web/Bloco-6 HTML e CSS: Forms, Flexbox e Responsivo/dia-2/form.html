@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./assest/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
@@ -10,71 +12,86 @@
 
 <body>
   <main>
-    <header id="header">
-      <h1>Trybetrip</h1>
+    <header class="text-center m-3">
+      <h1 class="display-3">Trybetrip</h1>
     </header>
     <section>
-      <div id="container">
+      <div class="container">
         <form action="" method="get">
 
-          <div class="sectionInputs">
-            <label for="full-name">Nome:<br />
-              <input type="text" name="name" id="full-name" required placeholder="Digite seu nome completo...">
+          <div class="input-group mb-3 mt-5">
+            <label class="input-group-text" for="full-name">Nome</label>
+            <input class="form-control" type="text" name="name" id="full-name" required
+              placeholder="Digite seu nome completo...">
+          </div>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="email">Email</label>
+            <input class="form-control" type="email" name="email" id="email" required placeholder="Digite seu email...">
+
+          </div>
+
+          <div class="form-check form-check-inline mb-3">
+            <label class="form-check-label" for="opção1">
+              <input class="form-check-input" type="radio" name="opção" id="opção1" class="radio">Cidade
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label" for="opção2">
+              <input class="form-check-input" type="radio" name="opção" id="opção2" class="radio">Campo
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check form-check-inline" for="opção3">
+              <input class="form-check-input" type="radio" name="opção" id="opção3" class="radio">Praia
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label" for="opção4">
+              <input class="form-check-input" type="radio" name="opção" id="opção4" class="radio">Montanhas
             </label>
           </div>
 
-          <div class="sectionInputs">
-            <label for="email">Email:<br />
-              <input type="email" name="email" id="email" required placeholder="Digite seu email...">
-            </label>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" name="" id="abstrat" cols="30" rows="10" maxlength="500"></textarea>
+            <label for="abstrat">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
           </div>
-          <div class="sectionInputs">
-            <label for="opção1">
-              <input type="radio" name="opção" id="opção1" class="radio">Cidade
-            </label>
-            <label for="opção2">
-              <input type="radio" name="opção" id="opção2" class="radio">Campo
-            </label>
-            <label for="opção3">
-              <input type="radio" name="opção" id="opção3" class="radio">Praia
-            </label>
-            <label for="opção4">
-              <input type="radio" name="opção" id="opção4" class="radio">Montanhas
-            </label>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="data">Qual a melhor data para realizar sua viagem?</label>
+            <input class="form-control" type="date" name="date" id="data">
           </div>
-          <div class="sectionInputs">
-            <label for="abstrat">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<br />
-              <textarea name="" id="abstrat" cols="30" rows="10" maxlength="500"></textarea>
-            </label>
+
+          <div class="form-check form-switch">
+            <label class="form-check-label" for=" check"></label>
+            <input class="form-check-input" type="checkbox" name="check" id="check" checked>Gostaria de receber outras
+            incríveis oportunidades
+            oferecidas pela Trybe?
           </div>
-          <div class="sectioninputs">
-            <label for="data">Qual a melhor data para realizar sua viagem?<br />
-              <input type="date" name="date" id="data" ">
-            </label>
+
+          <div class="form-check form-switch">
+            <label class="form-check-label" for="check2"></label>
+            <input class="form-check-input" type="checkbox" name="check" id="check2" checked>Concordo que imagens das
+            minhas férias poderão ser usadas
+            na divulgação de concursos futuros.
+
           </div>
-          <div class=" sectionInputs">
-              <label for="check">
-                <input type="checkbox" name="check" id="check">Gostaria de receber outras incríveis oportunidades
-                oferecidas pela Trybe?
-              </label>
+
+          <div class="form-check-inline mt-4">
+            <button class="btn btn-primary" type="submit" id="buttonSubmit">Enviar</button>
           </div>
-          <div class="sectionInputs">
-            <label for="check2">
-              <input type="checkbox" name="check" id="check2">Concordo que imagens das minhas férias poderão ser usadas
-              na divulgação de concursos futuros.
-            </label>
+          <div class="form-check-inline">
+            <button class="btn btn-warning" type="reset" id="buttonReset">Limpar</button>
           </div>
-          <div id="button1">
-            <button type="submit" id="buttonSubmit">Enviar</button>
-            <button type="reset" id="buttonReset">Limpar</button>
-          </div>
+
         </form>
       </div>
     </section>
   </main>
   <footer>
-    <div class="footer_copy">
-      <p>Criado com Amor ❤️ por <a href="https://www.linkedin.com/in/matheusbezerra-dev/" target="_blank">Matheus Bezerra</a>.
+    <div class="text-center mt-3">
+      <p>Criado com Amor ❤️ por <a href="https://www.linkedin.com/in/matheusbezerra-dev/" target="_blank">Matheus
+          Bezerra</a>.
       </p>
     </div>
   </footer>
