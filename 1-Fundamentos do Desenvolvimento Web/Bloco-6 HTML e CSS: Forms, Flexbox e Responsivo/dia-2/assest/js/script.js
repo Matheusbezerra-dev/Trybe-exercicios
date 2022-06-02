@@ -1,3 +1,6 @@
+
+document.getElementById('date').DatePickerX.init();
+
 const button = document.getElementById('buttonSubmit');
 
 
