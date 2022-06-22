@@ -4,4 +4,4 @@ const lotteryResult = (myNumber, callBack) => {
   return callBack(myNumber, numberOne) ? 'Lucky day, you won!' : 'Try Again!';
 };
 
-console.log(lotteryResult(5, numberChecker));
+console.log(lotteryResult(4, numberChecker));
