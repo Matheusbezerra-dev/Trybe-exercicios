@@ -9,3 +9,4 @@ const yearSeasons = {
   const months = [...spring, ...summer, ...autumn, ...winter];
 
   console.log(months);
+  'terminei'
