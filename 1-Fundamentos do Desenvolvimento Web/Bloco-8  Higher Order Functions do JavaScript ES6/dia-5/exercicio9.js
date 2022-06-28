@@ -6,6 +6,6 @@ const yearSeasons = {
   };
 
   const {spring, summer, autumn, winter} = yearSeasons;
-  const months = [...spring, ...summer, ...autumn, ...winter]
+  const months = [...spring, ...summer, ...autumn, ...winter];
 
-  console.log(months)
+  console.log(months);
