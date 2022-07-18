@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: rgb(40, 8, 167);
+  height: 60px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 7px;
+}
+
+#container {
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+
+}
+
+input[type=text] {
+  width: 300px;
+  border-radius: 5px;
+}
+
+input[type=email] {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.sectionInputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.radio {
+  margin-left: 20px;
+
+}
+
+#abstrat {
+  resize: none;
+  width: 520px;
+}
+
+.sectioninputs {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.sectioninputs label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button1 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+footer {
+  display: flex; 
+  background-color: rgb(40, 8, 167);
+  color: white;
+  margin-top: 90px;
+  flex-direction: column;
+  height: auto;
+}
+
+.footer_copy {
+  border-top: 1px solid white;;
+  line-height: 40px;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.footer_copy p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_copy a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_copy a:hover {
+  text-decoration: underline;
+}
