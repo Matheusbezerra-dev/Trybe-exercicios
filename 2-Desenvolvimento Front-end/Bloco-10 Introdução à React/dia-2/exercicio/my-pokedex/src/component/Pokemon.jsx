@@ -9,13 +9,13 @@ class Pokemon extends Component {
     return (
       <div className='pokemon'>
         <div>
-          <p>{ name }</p>
-          <p>{ type }</p>
+          <p>{name}</p>
+          <p>{type}</p>
           <p>
-          {`Average weight: ${averageWeight.value} ${averageWeight.measurementUnit}`}
+            {`Average weight: ${averageWeight.value} ${averageWeight.measurementUnit}`}
           </p>
         </div>
-        <img src={ image } alt={ `{name} sprite`} />
+        <img src={image} alt={`{name} sprite`} />
       </div>
     );
   }
